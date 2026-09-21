@@ -265,6 +265,7 @@ if (fs.existsSync(distClientPath)) {
 }
 
 // Start Server
+
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`[Aegis Server] Listening on http://0.0.0.0:${PORT}`);
 });
